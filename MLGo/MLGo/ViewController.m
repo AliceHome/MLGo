@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UITabBarController
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,0 +1,6 @@
+module Pods_MLGo {
+  umbrella header "Pods-MLGo-umbrella.h"
+
+  export *
+  module * { export * }
+}

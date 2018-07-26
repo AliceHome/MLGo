@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		35F13555BC6D966E264B6075 /* libPods-MLGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2B8793185A454BAF3C02 /* libPods-MLGo.a */; };
+		F596D8B421095F730075949E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8B321095F730075949E /* HomeVC.m */; };
+		F596D8B721095F830075949E /* SearcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8B621095F830075949E /* SearcVC.m */; };
+		F596D8BA210961750075949E /* JuHuaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8B9210961750075949E /* JuHuaVC.m */; };
+		F596D8BD210961850075949E /* RankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8BC210961850075949E /* RankVC.m */; };
+		F596D8C0210961920075949E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8BF210961920075949E /* MineVC.m */; };
 		F5B9FD2321094B26002F1C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9FD2221094B26002F1C26 /* AppDelegate.m */; };
 		F5B9FD2621094B26002F1C26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9FD2521094B26002F1C26 /* ViewController.m */; };
 		F5B9FD2921094B26002F1C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B9FD2721094B26002F1C26 /* Main.storyboard */; };
 		F5B9FD2B21094B27002F1C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B9FD2A21094B27002F1C26 /* Assets.xcassets */; };
 		F5B9FD2E21094B27002F1C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B9FD2C21094B27002F1C26 /* LaunchScreen.storyboard */; };
 		F5B9FD3121094B27002F1C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9FD3021094B27002F1C26 /* main.m */; };
+		F5E7516A210953410093DC14 /* AppDelegate+TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E75169210953410093DC14 /* AppDelegate+TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F4F2B8793185A454BAF3C02 /* libPods-MLGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F4401D8AEDE8BBAA9C4744 /* Pods-MLGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLGo/Pods-MLGo.debug.xcconfig"; sourceTree = "<group>"; };
 		56D719CF8961F6BC14729338 /* Pods-MLGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLGo/Pods-MLGo.release.xcconfig"; sourceTree = "<group>"; };
+		F596D8B221095F730075949E /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		F596D8B321095F730075949E /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		F596D8B521095F830075949E /* SearcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearcVC.h; sourceTree = "<group>"; };
+		F596D8B621095F830075949E /* SearcVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearcVC.m; sourceTree = "<group>"; };
+		F596D8B8210961750075949E /* JuHuaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuHuaVC.h; sourceTree = "<group>"; };
+		F596D8B9210961750075949E /* JuHuaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuHuaVC.m; sourceTree = "<group>"; };
+		F596D8BB210961850075949E /* RankVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankVC.h; sourceTree = "<group>"; };
+		F596D8BC210961850075949E /* RankVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankVC.m; sourceTree = "<group>"; };
+		F596D8BE210961920075949E /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		F596D8BF210961920075949E /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		F5B9FD1E21094B26002F1C26 /* MLGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B9FD2121094B26002F1C26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5B9FD2221094B26002F1C26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +46,8 @@
 		F5B9FD2D21094B27002F1C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B9FD2F21094B27002F1C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B9FD3021094B27002F1C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E75168210953410093DC14 /* AppDelegate+TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+TabBarController.h"; sourceTree = "<group>"; };
+		F5E75169210953410093DC14 /* AppDelegate+TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TabBarController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +100,11 @@
 		F5B9FD2021094B26002F1C26 /* MLGo */ = {
 			isa = PBXGroup;
 			children = (
+				F5E7516B210954780093DC14 /* Main */,
 				F5B9FD2121094B26002F1C26 /* AppDelegate.h */,
 				F5B9FD2221094B26002F1C26 /* AppDelegate.m */,
+				F5E75168210953410093DC14 /* AppDelegate+TabBarController.h */,
+				F5E75169210953410093DC14 /* AppDelegate+TabBarController.m */,
 				F5B9FD2421094B26002F1C26 /* ViewController.h */,
 				F5B9FD2521094B26002F1C26 /* ViewController.m */,
 				F5B9FD2721094B26002F1C26 /* Main.storyboard */,
@@ -93,6 +114,199 @@
 				F5B9FD3021094B27002F1C26 /* main.m */,
 			);
 			path = MLGo;
+			sourceTree = "<group>";
+		};
+		F5E7516B210954780093DC14 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7516C210954780093DC14 /* Home */,
+				F5E75170210954780093DC14 /* RankList */,
+				F5E75174210954780093DC14 /* Search */,
+				F5E75178210954780093DC14 /* JuHua */,
+				F5E7517C210954780093DC14 /* Mine */,
+				F5E75180210954780093DC14 /* HelpViews */,
+				F5E75181210954780093DC14 /* Categories */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F5E7516C210954780093DC14 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7516D210954780093DC14 /* Models */,
+				F5E7516E210954780093DC14 /* Controllers */,
+				F5E7516F210954780093DC14 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F5E7516D210954780093DC14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5E7516E210954780093DC14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8B221095F730075949E /* HomeVC.h */,
+				F596D8B321095F730075949E /* HomeVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5E7516F210954780093DC14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5E75170210954780093DC14 /* RankList */ = {
+			isa = PBXGroup;
+			children = (
+				F5E75171210954780093DC14 /* Models */,
+				F5E75172210954780093DC14 /* Controllers */,
+				F5E75173210954780093DC14 /* Views */,
+			);
+			path = RankList;
+			sourceTree = "<group>";
+		};
+		F5E75171210954780093DC14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5E75172210954780093DC14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8BB210961850075949E /* RankVC.h */,
+				F596D8BC210961850075949E /* RankVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5E75173210954780093DC14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5E75174210954780093DC14 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F5E75175210954780093DC14 /* Models */,
+				F5E75176210954780093DC14 /* Controllers */,
+				F5E75177210954780093DC14 /* Views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F5E75175210954780093DC14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5E75176210954780093DC14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8B521095F830075949E /* SearcVC.h */,
+				F596D8B621095F830075949E /* SearcVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5E75177210954780093DC14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5E75178210954780093DC14 /* JuHua */ = {
+			isa = PBXGroup;
+			children = (
+				F5E75179210954780093DC14 /* Models */,
+				F5E7517A210954780093DC14 /* Controllers */,
+				F5E7517B210954780093DC14 /* Views */,
+			);
+			path = JuHua;
+			sourceTree = "<group>";
+		};
+		F5E75179210954780093DC14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5E7517A210954780093DC14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8B8210961750075949E /* JuHuaVC.h */,
+				F596D8B9210961750075949E /* JuHuaVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5E7517B210954780093DC14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5E7517C210954780093DC14 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F5E7517D210954780093DC14 /* Models */,
+				F5E7517E210954780093DC14 /* Controllers */,
+				F5E7517F210954780093DC14 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F5E7517D210954780093DC14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5E7517E210954780093DC14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8BE210961920075949E /* MineVC.h */,
+				F596D8BF210961920075949E /* MineVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5E7517F210954780093DC14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5E75180210954780093DC14 /* HelpViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelpViews;
+			sourceTree = "<group>";
+		};
+		F5E75181210954780093DC14 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +420,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F596D8BD210961850075949E /* RankVC.m in Sources */,
+				F5E7516A210953410093DC14 /* AppDelegate+TabBarController.m in Sources */,
 				F5B9FD2621094B26002F1C26 /* ViewController.m in Sources */,
+				F596D8C0210961920075949E /* MineVC.m in Sources */,
 				F5B9FD3121094B27002F1C26 /* main.m in Sources */,
+				F596D8BA210961750075949E /* JuHuaVC.m in Sources */,
+				F596D8B421095F730075949E /* HomeVC.m in Sources */,
 				F5B9FD2321094B26002F1C26 /* AppDelegate.m in Sources */,
+				F596D8B721095F830075949E /* SearcVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +570,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722KJB9L65;
 				INFOPLIST_FILE = MLGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,7 +589,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 722KJB9L65;
 				INFOPLIST_FILE = MLGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

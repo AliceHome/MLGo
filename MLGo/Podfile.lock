@@ -18,6 +18,7 @@ PODS:
   - LCNavigationController (1.0.6)
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.3)
+  - ReactiveObjC (3.1.0)
   - SDWebImage (4.4.1):
     - SDWebImage/Core (= 4.4.1)
   - SDWebImage/Core (4.4.1)
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - LCNavigationController
   - MJExtension
   - MJRefresh
+  - ReactiveObjC
   - SDWebImage
 
 SPEC REPOS:
@@ -37,6 +39,7 @@ SPEC REPOS:
     - LCNavigationController
     - MJExtension
     - MJRefresh
+    - ReactiveObjC
     - SDWebImage
 
 SPEC CHECKSUMS:
@@ -45,8 +48,9 @@ SPEC CHECKSUMS:
   LCNavigationController: a59ed93dd3412729be3e40ea4f3a85b686c58f4b
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
 
-PODFILE CHECKSUM: 1a33d6e8319f61b20d257bc878b6873f957105f7
+PODFILE CHECKSUM: 451f457372828c0f76c3f124f512ae1e2b6afe13
 
 COCOAPODS: 1.5.3
