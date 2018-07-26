@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="137" id="KGk-i7-Jjw" customClass="FlowGoodsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vq4-IG-cUo">
+                        <rect key="frame" x="16" y="11" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="7cN-Xa-6H8"/>
+                            <constraint firstAttribute="width" constant="80" id="uIU-mH-ffd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="春秋新款春秋新款春秋新款春秋新款春秋新款春秋新款春秋新款春秋新款" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFR-Qz-rO3">
+                        <rect key="frame" x="104" y="11" width="206" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥ 199.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgK-fe-Pxs">
+                        <rect key="frame" x="104" y="44.5" width="43.5" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="券后价 ￥ 99.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsq-ti-oub">
+                        <rect key="frame" x="104" y="60" width="94" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uFR-Qz-rO3" firstAttribute="top" secondItem="vq4-IG-cUo" secondAttribute="top" id="7KU-dw-TRJ"/>
+                    <constraint firstItem="jgK-fe-Pxs" firstAttribute="leading" secondItem="uFR-Qz-rO3" secondAttribute="leading" id="7Sp-Kv-Ze4"/>
+                    <constraint firstItem="Gsq-ti-oub" firstAttribute="top" secondItem="jgK-fe-Pxs" secondAttribute="bottom" constant="2" id="HTJ-aB-JMR"/>
+                    <constraint firstItem="vq4-IG-cUo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Kcr-ys-nSZ"/>
+                    <constraint firstItem="Gsq-ti-oub" firstAttribute="leading" secondItem="jgK-fe-Pxs" secondAttribute="leading" id="Omq-eG-llz"/>
+                    <constraint firstItem="uFR-Qz-rO3" firstAttribute="leading" secondItem="vq4-IG-cUo" secondAttribute="trailing" constant="8" id="YE4-kj-WMf"/>
+                    <constraint firstAttribute="trailing" secondItem="uFR-Qz-rO3" secondAttribute="trailing" constant="10" id="bNn-9G-FBk"/>
+                    <constraint firstItem="vq4-IG-cUo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="bV4-yT-hPE"/>
+                    <constraint firstItem="jgK-fe-Pxs" firstAttribute="top" secondItem="uFR-Qz-rO3" secondAttribute="bottom" id="kJM-7F-NIV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="cuponsPriceLabel" destination="Gsq-ti-oub" id="D6g-vh-El8"/>
+                <outlet property="goodsPriceLabel" destination="jgK-fe-Pxs" id="G5U-mJ-fMo"/>
+                <outlet property="imageV" destination="vq4-IG-cUo" id="vUX-WU-eze"/>
+                <outlet property="titleLabel" destination="uFR-Qz-rO3" id="Wu7-c6-vYz"/>
+            </connections>
+            <point key="canvasLocation" x="-47" y="-10"/>
+        </tableViewCell>
+    </objects>
+</document>

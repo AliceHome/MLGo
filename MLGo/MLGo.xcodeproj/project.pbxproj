@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		35F13555BC6D966E264B6075 /* libPods-MLGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F2B8793185A454BAF3C02 /* libPods-MLGo.a */; };
+		F569984C21097D3C005C7427 /* UILabel+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F569984B21097D3C005C7427 /* UILabel+extension.m */; };
 		F596D8B421095F730075949E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8B321095F730075949E /* HomeVC.m */; };
 		F596D8B721095F830075949E /* SearcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8B621095F830075949E /* SearcVC.m */; };
 		F596D8BA210961750075949E /* JuHuaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8B9210961750075949E /* JuHuaVC.m */; };
 		F596D8BD210961850075949E /* RankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8BC210961850075949E /* RankVC.m */; };
 		F596D8C0210961920075949E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8BF210961920075949E /* MineVC.m */; };
+		F596D8C4210963E90075949E /* FlowGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8C2210963E90075949E /* FlowGoodsCell.m */; };
+		F596D8C5210963E90075949E /* FlowGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F596D8C3210963E90075949E /* FlowGoodsCell.xib */; };
+		F596D8CA210967F10075949E /* HomeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F596D8C9210967F10075949E /* HomeAPI.m */; };
 		F5B9FD2321094B26002F1C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9FD2221094B26002F1C26 /* AppDelegate.m */; };
 		F5B9FD2621094B26002F1C26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9FD2521094B26002F1C26 /* ViewController.m */; };
 		F5B9FD2921094B26002F1C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B9FD2721094B26002F1C26 /* Main.storyboard */; };
@@ -20,12 +24,15 @@
 		F5B9FD2E21094B27002F1C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B9FD2C21094B27002F1C26 /* LaunchScreen.storyboard */; };
 		F5B9FD3121094B27002F1C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9FD3021094B27002F1C26 /* main.m */; };
 		F5E7516A210953410093DC14 /* AppDelegate+TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E75169210953410093DC14 /* AppDelegate+TabBarController.m */; };
+		F5ED7C412109785300DB2F2B /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7C402109785300DB2F2B /* GoodsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F4F2B8793185A454BAF3C02 /* libPods-MLGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F4401D8AEDE8BBAA9C4744 /* Pods-MLGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLGo/Pods-MLGo.debug.xcconfig"; sourceTree = "<group>"; };
 		56D719CF8961F6BC14729338 /* Pods-MLGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLGo/Pods-MLGo.release.xcconfig"; sourceTree = "<group>"; };
+		F569984A21097D3C005C7427 /* UILabel+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+extension.h"; sourceTree = "<group>"; };
+		F569984B21097D3C005C7427 /* UILabel+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+extension.m"; sourceTree = "<group>"; };
 		F596D8B221095F730075949E /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		F596D8B321095F730075949E /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		F596D8B521095F830075949E /* SearcVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearcVC.h; sourceTree = "<group>"; };
@@ -36,6 +43,11 @@
 		F596D8BC210961850075949E /* RankVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankVC.m; sourceTree = "<group>"; };
 		F596D8BE210961920075949E /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
 		F596D8BF210961920075949E /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		F596D8C1210963E90075949E /* FlowGoodsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowGoodsCell.h; sourceTree = "<group>"; };
+		F596D8C2210963E90075949E /* FlowGoodsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowGoodsCell.m; sourceTree = "<group>"; };
+		F596D8C3210963E90075949E /* FlowGoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlowGoodsCell.xib; sourceTree = "<group>"; };
+		F596D8C8210967F10075949E /* HomeAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAPI.h; sourceTree = "<group>"; };
+		F596D8C9210967F10075949E /* HomeAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAPI.m; sourceTree = "<group>"; };
 		F5B9FD1E21094B26002F1C26 /* MLGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B9FD2121094B26002F1C26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5B9FD2221094B26002F1C26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +60,8 @@
 		F5B9FD3021094B27002F1C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5E75168210953410093DC14 /* AppDelegate+TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+TabBarController.h"; sourceTree = "<group>"; };
 		F5E75169210953410093DC14 /* AppDelegate+TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+TabBarController.m"; sourceTree = "<group>"; };
+		F5ED7C3F2109785300DB2F2B /* GoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		F5ED7C402109785300DB2F2B /* GoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,23 @@
 				4F4F2B8793185A454BAF3C02 /* libPods-MLGo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F596D8C6210966180075949E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8C7210966180075949E /* Home */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F596D8C7210966180075949E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F596D8C8210967F10075949E /* HomeAPI.h */,
+				F596D8C9210967F10075949E /* HomeAPI.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		F5B9FD1521094B26002F1C26 = {
@@ -119,6 +150,7 @@
 		F5E7516B210954780093DC14 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F596D8C6210966180075949E /* API */,
 				F5E7516C210954780093DC14 /* Home */,
 				F5E75170210954780093DC14 /* RankList */,
 				F5E75174210954780093DC14 /* Search */,
@@ -143,6 +175,8 @@
 		F5E7516D210954780093DC14 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F5ED7C3F2109785300DB2F2B /* GoodsModel.h */,
+				F5ED7C402109785300DB2F2B /* GoodsModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,6 +193,9 @@
 		F5E7516F210954780093DC14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F596D8C1210963E90075949E /* FlowGoodsCell.h */,
+				F596D8C2210963E90075949E /* FlowGoodsCell.m */,
+				F596D8C3210963E90075949E /* FlowGoodsCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +342,8 @@
 		F5E75181210954780093DC14 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				F569984A21097D3C005C7427 /* UILabel+extension.h */,
+				F569984B21097D3C005C7427 /* UILabel+extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -370,6 +409,7 @@
 			files = (
 				F5B9FD2E21094B27002F1C26 /* LaunchScreen.storyboard in Resources */,
 				F5B9FD2B21094B27002F1C26 /* Assets.xcassets in Resources */,
+				F596D8C5210963E90075949E /* FlowGoodsCell.xib in Resources */,
 				F5B9FD2921094B26002F1C26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,11 +461,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F596D8BD210961850075949E /* RankVC.m in Sources */,
+				F596D8CA210967F10075949E /* HomeAPI.m in Sources */,
 				F5E7516A210953410093DC14 /* AppDelegate+TabBarController.m in Sources */,
 				F5B9FD2621094B26002F1C26 /* ViewController.m in Sources */,
 				F596D8C0210961920075949E /* MineVC.m in Sources */,
 				F5B9FD3121094B27002F1C26 /* main.m in Sources */,
 				F596D8BA210961750075949E /* JuHuaVC.m in Sources */,
+				F569984C21097D3C005C7427 /* UILabel+extension.m in Sources */,
+				F596D8C4210963E90075949E /* FlowGoodsCell.m in Sources */,
+				F5ED7C412109785300DB2F2B /* GoodsModel.m in Sources */,
 				F596D8B421095F730075949E /* HomeVC.m in Sources */,
 				F5B9FD2321094B26002F1C26 /* AppDelegate.m in Sources */,
 				F596D8B721095F830075949E /* SearcVC.m in Sources */,

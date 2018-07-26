@@ -1,13 +1,15 @@
 //
-//  HomeVC.h
+//  GoodsModel.m
 //  MLGo
 //
 //  Created by Maple on 2018/7/26.
 //  Copyright © 2018 Maple. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GoodsModel.h"
 
-@interface HomeVC : UITableViewController
+@implementation GoodsModel
+
+
 
 @end
